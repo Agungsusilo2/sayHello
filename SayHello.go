@@ -1,7 +1,5 @@
 package goModule
 
-import "fmt"
-
-func SayHello() {
-	fmt.Println("Hello")
+func SayHello(name string) string {
+	return "Hello " + name
 }
