@@ -1,5 +1,5 @@
 package goModule
 
-func SayHello(name string) string {
-	return "Hello " + name
+func SayHello(firstname string, lastname string) string {
+	return "Hello " + firstname + lastname
 }
